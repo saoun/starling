@@ -34,6 +34,8 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
 }
 
 @media(min-width:768px) {
@@ -153,23 +155,26 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
 }
 
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-}
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;}
 
 @media(min-width:768px) {
     .intro {
