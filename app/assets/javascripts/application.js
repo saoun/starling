@@ -10,8 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
+//= require grayscale/jquery
+//= require grayscale/jquery_ujs
+//= require grayscale/jquery_ui
 //= require bootstrap
 //= require grayscale/grayscale
 //= require grayscale/jquery.easing.min
