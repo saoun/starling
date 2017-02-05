@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: #000;
+    color: #cacaca;
+    background-color: #050717;
 }
 
 html {
@@ -25,8 +25,8 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
@@ -34,8 +34,6 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 100;
 }
 
 @media(min-width:768px) {
@@ -43,11 +41,14 @@ p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        font-size: 17px;
     }
 }
 
 a {
-    color: #42dca3;
+    color: #4696bf;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -67,8 +68,10 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #08080b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 .navbar-custom .navbar-brand {
@@ -98,6 +101,9 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 .navbar-custom .nav li a:hover {
@@ -149,7 +155,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url('/assets/grayscale/intro-bg.jpg') no-repeat bottom center scroll;
+    background: url('/assets/grayscale/pic1.jpg') no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -174,7 +180,10 @@ a:focus {
 .intro .intro-body .intro-text {
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 100;}
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #cacaca;
+}
 
 @media(min-width:768px) {
     .intro {
@@ -196,10 +205,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 1px solid #cacaca;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
+    color: #cacaca;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -209,7 +218,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #cacaca;
     background: rgba(255,255,255,.1);
 }
 
@@ -313,17 +322,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #dc4242;
+    color: #dc4242;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #dc4242;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #dc4242;
 }
 
 ul.banner-social-buttons {
@@ -378,4 +387,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.about {
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
 }
