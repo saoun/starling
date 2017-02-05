@@ -6,7 +6,7 @@ console.log('poo')
 
 
 (function( $, undefined ) {
-
+console.log('poo')
 var uuid = 0,
   runiqueId = /^ui-id-\d+$/;
 
