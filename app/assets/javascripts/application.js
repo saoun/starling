@@ -12,8 +12,8 @@
 //
 //= require jquery
 //= require jquery-ui
-//= require bootstrap
 //= require grayscale
 //= require jquery.easing.min
+//= require bootstrap
 //= require turbolinks
 //= require_tree .
