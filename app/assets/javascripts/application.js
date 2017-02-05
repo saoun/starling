@@ -12,7 +12,7 @@
 //
 //= require grayscale/jquery
 //= require grayscale/jquery_ujs
-//= require grayscale/jquery_ui
+//= require grayscale/jquery-ui
 //= require bootstrap
 //= require grayscale/grayscale
 //= require grayscale/jquery.easing.min
