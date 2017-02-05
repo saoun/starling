@@ -4,8 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- console.log('hello')
-
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
