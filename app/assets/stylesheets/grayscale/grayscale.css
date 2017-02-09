@@ -278,12 +278,12 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.team-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url('/assets/grayscale/downloads-bg.jpg') no-repeat center center scroll;
-    background-color: #000;
+/*     background: url('/assets/grayscale/downloads-bg.jpg') no-repeat center center scroll;
+ */    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -301,7 +301,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .team-section {
         padding: 100px 0;
     }
 
