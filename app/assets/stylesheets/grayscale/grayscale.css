@@ -281,9 +281,11 @@ a:focus {
 .team-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
+    color: #cacaca;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 /*     background: url('/assets/grayscale/downloads-bg.jpg') no-repeat center center scroll;
- */    background-color: #000;
+ */    background-color: #050717;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
